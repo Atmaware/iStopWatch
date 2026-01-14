@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iStopWatch! 知止观 - Transform your screen time into rhythmic, mindful digital breath cycles">
+    <title>iStopWatch! 知止观 - Digital Mindfulness Stopwatch</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="app-name">iStopWatch! <span class="chinese">知止观</span></h1>
+                <p class="tagline">Your digital mindfulness stopwatch</p>
+                <p class="subtitle">Transform infinite scrolling into rhythmic, mindful breathing cycles</p>
+
+                <!-- Breathing Cycle Visualization -->
+                <div class="breathing-circle">
+                    <svg viewBox="0 0 200 200" class="cycle-svg">
+                        <circle cx="100" cy="100" r="80" class="cycle-bg"></circle>
+                        <circle cx="100" cy="100" r="80" class="cycle-progress" id="cycleProgress"></circle>
+                        <text x="100" y="95" class="cycle-label" id="cycleLabel">Inhale</text>
+                        <text x="100" y="115" class="cycle-time" id="cycleTime">12:00</text>
+                    </svg>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">Coming Soon</a>
+                    <a href="#learn-more" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="learn-more" class="philosophy">
+        <div class="container">
+            <h2>知止而后有定，定而后能静</h2>
+            <p class="philosophy-subtitle">"Remember to break, and you will find stability; with stability comes tranquility"</p>
+
+            <div class="philosophy-grid">
+                <div class="philosophy-item">
+                    <h3>知止 (Remember to Break)</h3>
+                    <p>From Confucian wisdom: "Know when to stop, and then you can be settled"</p>
+                </div>
+                <div class="philosophy-item">
+                    <h3>止观 (Samatha-Vipassana)</h3>
+                    <p>From Zen practice: "Calming and insight, meditation and wisdom in harmony"</p>
+                </div>
+            </div>
+
+            <p class="philosophy-description">
+                iStopWatch! transforms the linear, infinite scroll of screens into rhythmic,
+                cyclical mind-body activities. By breaking your digital time into breathwork-inspired
+                cycles, you create natural pauses for reflection and physical movement.
+            </p>
+        </div>
+    </section>
+
+    <!-- The Cycle Section -->
+    <section class="cycle-explanation">
+        <div class="container">
+            <h2>The Digital Breath Cycle</h2>
+            <p class="section-subtitle">Each cycle mirrors the natural rhythm of breathing</p>
+
+            <div class="cycle-phases">
+                <div class="phase">
+                    <div class="phase-icon hold-off">住息</div>
+                    <h3>Hold Off</h3>
+                    <p>Screen awaits. Prepare to begin your focused digital session.</p>
+                </div>
+
+                <div class="phase">
+                    <div class="phase-icon inhale">入息</div>
+                    <h3>Inhale</h3>
+                    <p>Screen is active. Use your device freely and mindfully.</p>
+                </div>
+
+                <div class="phase">
+                    <div class="phase-icon hold-on">顿息</div>
+                    <h3>Hold On</h3>
+                    <p>Screen freezes. Time to wrap up your current activity.</p>
+                </div>
+
+                <div class="phase">
+                    <div class="phase-icon exhale">出息</div>
+                    <h3>Exhale</h3>
+                    <p>Device locks. Move your body, rest your eyes, be present.</p>
+                </div>
+            </div>
+
+            <div class="cycle-patterns">
+                <h3>Choose Your Rhythm</h3>
+                <div class="patterns-grid">
+                    <div class="pattern-card">
+                        <h4>Standard Cycle</h4>
+                        <p class="pattern-timing">12m Usage • 1m Hold • 2m Break</p>
+                        <p>Perfect for balanced work sessions</p>
+                    </div>
+                    <div class="pattern-card">
+                        <h4>4-7-8 Breathing</h4>
+                        <p class="pattern-timing">4 units • 7 units • 8 units</p>
+                        <p>Deeply calming, great for stress relief</p>
+                    </div>
+                    <div class="pattern-card">
+                        <h4>Box Breathing</h4>
+                        <p class="pattern-timing">4 • 4 • 4 • 4</p>
+                        <p>Includes meditation phase for maximum mindfulness</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Features for Mindful Living</h2>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Gentle Enforcement</h3>
+                    <p>No abrupt interruptions. A countdown and hold-to-continue mechanism helps you transition naturally between digital and physical activities.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Capture Moments</h3>
+                    <p>Quick notes, voice memos, and screenshots tied to each cycle. Review and reflect on your digital journey.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Cycle Insights</h3>
+                    <p>See how you spend time during each cycle. App usage statistics help you understand your digital habits.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Smart Notifications</h3>
+                    <p>Stay aware without being overwhelmed. Persistent progress indicators and timely reminders keep you on track.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌊</div>
+                    <h3>Custom Patterns</h3>
+                    <p>Configure cycle lengths and breathwork patterns that match your lifestyle and goals.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Always Present</h3>
+                    <p>On Android, iStopWatch! becomes your home launcher, ensuring mindfulness is always at your fingertips.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Begin Your Journey</h2>
+            <p class="download-subtitle">Find rhythm and balance in your digital life</p>
+
+            <div class="platform-buttons">
+                <a href="#" class="platform-btn android">
+                    <span class="platform-icon">📱</span>
+                    <div>
+                        <div class="platform-name">Android</div>
+                        <div class="platform-status">Coming Soon</div>
+                    </div>
+                </a>
+                <a href="#" class="platform-btn ios">
+                    <span class="platform-icon">🍎</span>
+                    <div>
+                        <div class="platform-name">iOS</div>
+                        <div class="platform-status">Coming Soon</div>
+                    </div>
+                </a>
+                <a href="#" class="platform-btn macos">
+                    <span class="platform-icon">💻</span>
+                    <div>
+                        <div class="platform-name">macOS</div>
+                        <div class="platform-status">Coming Soon</div>
+                    </div>
+                </a>
+            </div>
+
+            <p class="beta-notice">🌱 Currently in development. Join the waitlist to be notified when we launch.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-tagline">iStopWatch! 知止观</p>
+            <p class="footer-philosophy">止观双运，定慧双修</p>
+            <p class="footer-copyright">&copy; 2026 iStopWatch! All rights reserved.</p>
+
+            <div class="footer-links">
+                <a href="https://github.com/istopwatch">GitHub</a>
+                <a href="mailto:contact@istopwatch.app">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
